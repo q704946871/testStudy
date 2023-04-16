@@ -33,7 +33,7 @@ class TestSelectUser:
         }
         print(headers)
         GetToken= self.test_GetSessoion().request("get",url=TokenUrl,cookies = "JSESSIONID=NTI2ZmU5NmUtZDAwMi00MzIzLTlkYzctNTMxODZjNDQwNTYw")
-
+        print("上一行是错误的地方")
         # json()['message'] 拿到josn键值对中 message 字段对应的数据
         TestSelectUser.identitytoken = GetToken.json()['message']
     #根据拿到的token去查数据
