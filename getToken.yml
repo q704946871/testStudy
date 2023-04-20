@@ -1,0 +1,13 @@
+-
+#列表  - 开头分割下一个用例也用 -分开
+    request:
+        method: post
+        url: http://www.hunanbdc.com.cn:7377/Devops-Bpmx-Affairs/estate/login/validBack
+        data:
+            account: "TGl1SmlhSGFv"
+            password: "RGFuZ2VyITE5OTYwNjAxMQ=="
+            isVerify: "true"
+            callbackURL: ""
+            clientSystemId: ""
+            Connection: "keep-alive"
+    validate: None

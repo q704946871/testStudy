@@ -1,0 +1,16 @@
+-
+#列表  - 开头分割下一个用例也用 -分开
+    request:
+        method: post
+        url: http://222.240.168.20:90/devops/rest/root/query/ptsysuser_ext/listdata
+        data:
+            SYSTEM_ID_: "1"
+            ACCOUNT_: ""
+            USER_TYPE_: ""
+            DISTRICT_CODE_: ""
+            FULLNAME_: "刘家豪"
+            UKEY_ID_: ""
+            USER_FROM_: "1"
+            pageSize: "10"
+            pageNo: "1"
+    validate: None
